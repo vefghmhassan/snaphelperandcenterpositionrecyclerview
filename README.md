@@ -8,7 +8,7 @@
 ## how to  use:
 
 
-# Maven
+
  ```
  allprojects {
 		repositories {
