@@ -1,21 +1,39 @@
-# snaphelperandcenterpositionrecyclerview
-android recycler view  in center position libry  
+# Dillinger
 
-how to  use:
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-step 1:
-allprojects {
+# snap helper and center position recyclerview
+### android recycler view  in center position libry  
+
+## how to  use:
+# Maven
+ ```
+ allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  step 2: 
-  implementation 'com.github.vefghmhassan:snaphelperandcenterpositionrecyclerview:1.1'
-  step 3:
-  CenterPosition.init().setRecyclerview(RecyclerView, LinearLayoutManager, new CenterPosition.getPosition() {
+	
+  ```
+# Gradle
+ ```
+ dependencies {
+	        implementation 'com.github.vefghmhassan:snaphelperandcenterpositionrecyclerview:1.1'
+	}
+  ```
+# Example Code
+ ``` 
+ 
+ CenterPosition.init().setRecyclerview(RecyclerView, LinearLayoutManager, new CenterPosition.getPosition() {
             @Override
             public void position(int pos) {
                 // position center item recyclerview 
             }
         });
+```  
+
+
+
+
+
