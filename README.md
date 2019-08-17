@@ -1,11 +1,13 @@
-# Dillinger
-
-
-
 # snap helper and center position recyclerview
+
+
+
+
 ### android recycler view  in center position libry  
 
 ## how to  use:
+
+
 # Maven
  ```
  allprojects {
